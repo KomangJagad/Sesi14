@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Latihan JQuery 01</title>
+</head>
+<body>
+    
+    <h3>Judul Konten</h3>
+    <p></p>
+    <div id="isikontenid">Isi dari Konten ID</div>
+    <div class="isikontecls">Cintaku takkan hilang jika kamu setia</div>
+    
+    <p></p>
+    <div id="IDPengguna">Isi dari Konten ID</div>
+    <div class="CLASSPengguna">Bikin atap dari lontar</div>
+    <script src="jquery-3.7.0.min.js"></script> 
+    <script>
+        $(function(){
+            $("#isikontenid").html("Jalan jalan kekota bareng tania");
+            $("h3").html("latihanJQuery");
+            $("p").html("Pantun 1");
+
+            $("#IDPengguna").html("Bikin atap dari lontar");
+            $(".CLASSPengguna").html("Kamu berkata, hatiku bergetar");
+            $("p").html("Pantun 2");
+        });
+
+    </script>
+
+  
+</body>
+</html>
